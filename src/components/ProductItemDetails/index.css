@@ -1,0 +1,118 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.detailed-image {
+  width: 100%;
+  border-radius: 15px;
+}
+.product-detail-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .product-detail-main-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .detailed-image {
+    width: 45%;
+    margin-right: 3px;
+  }
+  .product-detail-matter {
+    width: 45%;
+  }
+}
+.product-detail-matter {
+  width: 100%;
+  font-family: 'roboto';
+}
+.detailed-title {
+  font-weight: 400;
+  color: #475569;
+}
+.small-star-container {
+  background-color: #3b82f6;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 3px;
+}
+.small-star-image {
+  height: 20px;
+  width: 20px;
+}
+
+.rating-review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.detailed-description {
+  color: #616e7c;
+}
+.add-to-cart-button {
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: #3b82f6;
+  border-width: 0px;
+  font-size: 10px;
+  height: 30px;
+  width: 100px;
+}
+.plus-and-minus-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.plus-minus-icon {
+  cursor: pointer;
+}
+.plus-or-minus-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.similar-products-container {
+  padding: 3px;
+}
+.unorder-list-similar-products {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+}
+.failure-image {
+  width: 60%;
+}
+.failure-containerr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.continue-button {
+  border-width: 0px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 5px;
+}
